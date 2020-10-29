@@ -1,12 +1,10 @@
-body {
+body{
     font-family: 'Courier New', Courier;
     margin: 0 auto;
     background-image: url("../assets/topography.png");
-  
-   };
+   }
 
- 
-h1 {
+h1{
     font-family: 'Lora', serif;
     font-weight: bold;
     text-align: center;
@@ -18,7 +16,8 @@ h2{
     color:#ff0099;
     font-size: 2em;
 }
-nav {
+
+nav{
     font-size: 1.5em;
     display: flex;
     justify-content: flex-end;
@@ -33,14 +32,13 @@ nav {
 }
 
 
-ul,li {
+ul,li{
     display: inline;
     margin: 0;
       margin-left : 1em;
         margin-right : 1em;
     padding-top: 20px;
     padding-bottom: 20px;
-   
 }
 
 a{
@@ -48,19 +46,18 @@ a{
     color: #ff0099;
     text-transform: uppercase; 
 }
+
 a:hover{
     color: #ffb1e0;
 }
 
-
-ul {
+ul{
     flex: 1;
     max-width: 50%;
     display: flex;
-
 }
 
-#about {
+#about{
     margin: auto;
     padding: 5% 10% 0;
 }
@@ -74,7 +71,7 @@ ul {
     font-size: 1.2em;
 }
 
-#wiki {
+#wiki{
     margin: auto;
     padding: 40px 10% 40px;
 }
